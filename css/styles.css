@@ -1,0 +1,18 @@
+body{
+ background-image:url("http://www.happycoding.us/wp-content/uploads/2016/05/KidsTechnology.jpg");
+ background-size: 35%, 30%;
+ background-repeat: no-repeat;
+ background-size: cover;
+ color:red;
+}
+#questions{
+ text-align: left;
+}
+#questionsIncomplete{
+ color:black;
+}
+.submit:hover {
+box-shadow:green;
+background:greenyellow;
+color:black;
+}
