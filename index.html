@@ -8,95 +8,92 @@
      <script src="js/scripts.js"></script>
   </head>
   <body>
-     <h1>JS Quiz</h1>
-     <p> What is the shortform of HTML? </p>
-     <div class="radio">
-      <label>
-        <input type="radio"  name="answer"  value="10">
-        HTML
-      </label>
-    </div>
-    <div class="radio">
-      <label>
-        <input type="radio" name="answer"  value="0">
-        HTLM
-      </label>
-    </div>
-    <div class="radio">
-      <label>
-        <input type="radio" name="answer"  value="0">
-        HMLT
-      </label>
-    </div>
-      </select>
-    </form>
-
-
-    <p> What is the other name for JavaScript? </p>
-    <div class="radio">
-      <label>
-        <input type="radio" name="answer"  value="10">
-        ECMAscript
-      </label>
-    </div>
-    <div class="radio">
-      <label>
-        <input type="radio" name="answer"  value="0">
-        JS
-      </label>
-    </div>
-    <div class="radio">
-      <label>
-        <input type="radio" name="answer"  value="0">
-        I dont know
+    <h1>JS Quiz</h1>
+    <p> What is the shortform of HTML? </p>
+    <form id="questions">
+      <div class="radio">
+        <label>
+          <input type="radio"  name="answer"  value="HTML">
+          HTML
         </label>
       </div>
-       </select>
-      </form>
+      <div class="radio">
+        <label>
+          <input type="radio" name="answer"  value="HTLM">
+          HTLM
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="answer"  value="HMLT">
+          HMLT
+        </label>
+      </div>
 
-   <p> Which folder is a bootstrap file placed in? </p>
-   <div class="radio">
-      <label>
-        <input type="radio" name="answer"  value="10">
-        css file
-      </label>
-    </div>
-    <div class="radio">
-      <label>
-        <input type="radio" name="answer"  value="0">
-        js file
-      </label>
-    </div>
-    <div class="radio">
-      <label>
-        <input type="radio" name="answer"  value="0">
-        both
-      </label>
-    </div>
-      </select>
-    </form>
 
-  <p> Under which folder is the j-Query file put? </p>
-  <div class="radio">
-      <label>
-        <input type="radio" name="answer"  value="10" checked>
-        js file
-      </label>
-    </div>
-    <div class="radio">
-      <label>
-        <input type="radio" name="answer"  value="0">
-        css file
-      </label>
-    </div>
-    <div class="radio">
-      <label>
-        <input type="radio" name="answer"  value="0">
-        both files
-      </label>
-    </div>
-      </select>
+
+      <p> What is the other name for JavaScript? </p>
+      <div class="radio">
+        <label>
+          <input type="radio" name="answer1"  value="ECMAscript">
+          ECMAscript
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="answer1"  value="JS">
+          JS
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="answer1"  value="I dont know">
+          I dont know
+        </label>
+      </div>
+
+      <p> Which folder is a bootstrap file placed in? </p>
+      <div class="radio">
+        <label>
+          <input type="radio" name="answer2"  value="css file">
+          css file
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="answer2"  value="js file">
+          js file
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="answer2"  value="both">
+          both
+        </label>
+      </div>
+
+      <p> Under which folder is the j-Query file put? </p>
+      <div class="radio">
+        <label>
+          <input type="radio" name="answer3"  value="js file">
+          js file
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="answer3"  value="css file">
+          css file
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="answer3"  value="both files">
+          both files
+        </label>
+      </div>
     </form>
-    <input type="button" name="button" id="btnSubmit" value="submit"
+    <div id="result"> </div>
+    <button type="submit" form="questions" value="Submit" class=" btn btn-success">Submit</button>
+    <div id="questionsIncomplete"> </div>
   </body>
 </html>
