@@ -1,5 +1,5 @@
-# Triangle Tracker
-#### This is a user interactive application that can tell whether a triangle is equilateral, isosceles or scalene, 15th February, 2019
+# Quiz Board
+#### This is a user interactive quiz page, 15th February, 2019
 #### By   Raychelle Sambu
 ## Description
 This is a webpage that offers a quiz concerning JavaScript where the user while choice an answer from the choices provided for all the questions upon completion the user shall receive their overall score on the quiz!
