@@ -8,4 +8,4 @@ No setup or installation required You just need to open your browser and search 
 ## Technologies Used
 I used HTML to develop the skeleton of the website as well as CSS to design a custom style sheet for the website.I used JavaScript to make the website functional so that people are able to input information and get their score back!
 ## Licence
-Copyright (c) 2018 by RachelSambu
+Copyright (c) 2018 by Rachel Sambu
