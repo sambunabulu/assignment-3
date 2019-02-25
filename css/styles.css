@@ -3,13 +3,13 @@ body{
  background-size: 35%, 30%;
  background-repeat: no-repeat;
  background-size: cover;
- color:red;
+ color:purple;
 }
 #questions{
  text-align: left;
 }
 #questionsIncomplete{
- color:black;
+ color:blue;
 }
 .submit:hover {
 box-shadow:green;
